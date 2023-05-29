@@ -1,0 +1,225 @@
+
+body{
+    box-sizing: border-box;
+    padding: 0%;
+    font-family: 'Lexend', sans-serif;
+    background-color: #f5f5f5;
+}
+
+#logo{
+    margin: 0;
+    background-color: rgb(228, 226, 226);
+    height: 50px; 
+    align-items: center;
+    padding: 3% 0 0 40%;
+
+}
+
+#search{
+    margin: 2rem 0 2rem 0;
+     background-color: white;
+     height: 40px; 
+     padding: 15px 15px 0px 90px;
+}
+.home{
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 50%vh;
+    border-radius: 8px;
+    align-items: center;
+    margin: auto;
+}
+
+#fresh{
+    font-family: lexend;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #269b51;
+    padding-left: 6rem;
+
+}
+
+.image{
+    border: blue;
+    /* outline: 80px; */
+    border-style: solid;
+    padding: 5px;
+    background: url(.png);
+    filter: drop-shadow(3px 4px 9px rgba(0, 0, 0, 0.25));
+}
+
+/*background: url(.png);
+filter: drop-shadow(3px 4px 9px rgba(0, 0, 0, 0.25));
+} */
+
+h3{
+    /* font-family: lexend;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22.5px;
+    color: black;
+}*
+ h6{
+    font-family: lexend;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12.5px;
+    color: #fe0000; */
+}
+.discount{
+    position: absolute;
+    
+}
+
+h5{
+    border: 10px;
+    background-color: rgb(247, 181, 181);
+    color: red;
+    font-size: 20px;
+    width: 60px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    outline: none;
+    /* cursor: pointer; */
+    margin: 0px;
+    
+}
+.direction{
+    display: flex;
+    justify-content: space-between;
+}
+/* categories section starts */
+.categories{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.cat-a{
+    background-color: rgb(219, 127, 127);
+    margin: 10px;
+    border-radius: 0px 0px 20px 20px;
+    height: 300px;
+    cursor: pointer;
+    filter: drop-shadow(3px 4px 9px rgba(0, 0, 0, 0.25));
+}
+
+.cat-b{
+    background-color: rgb(82, 218, 111);
+    margin: 10px;
+    border-radius: 0px 0px 20px 20px;
+    height: 300px;
+    cursor: pointer;
+    filter: drop-shadow(3px 4px 9px rgba(0, 0, 0, 0.25));
+}
+
+.cat-c{
+    background-color: white;
+    margin: 10px;
+    border-radius: 0px 0px 20px 20px;
+    height: 300px;
+    cursor: pointer;
+    filter: drop-shadow(3px 4px 9px rgba(0, 0, 0, 0.25));
+}
+
+.cat-d{
+    background-color: white;
+    margin: 10px;
+    border-radius: 0px 0px 20px 20px;
+    height: 300px;
+    cursor: pointer;
+    filter: drop-shadow(3px 4px 9px rgba(0, 0, 0, 0.25));
+}
+
+/* categories section ends */
+
+
+.popular,.best-selling, .new-products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.popular,.best-selling, .new-products,.categories{
+    position: relative;
+    width: 100%;
+    margin: 10px;
+    box-sizing: border-box;
+    float: inline-start;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+}
+.popular :hover{
+    transform: translate(0px, -8px);
+}
+
+.best-selling :hover{
+    transform: translate(0px, -8px);
+}
+
+.new-products :hover{
+    transform: translate(0px, -8px);
+}
+
+.categories :hover{
+    transform: translate(0px, -8px);
+}
+
+ .content{
+    background-color: white;
+    margin: 10px;
+    border-radius: 0px 0px 20px 20px;
+    height: fit-content;
+    /* cursor: pointer; */
+    filter: drop-shadow(3px 4px 9px rgba(0, 0, 0, 0.25));
+}
+
+
+.items{
+    padding-top: 30px;
+    
+}
+
+h4{
+    font-family: 'lexend', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #269b51;
+}
+hr{
+    border-style: solid;
+    color: #f5f5f5;
+    
+}
+a{
+    text-decoration: none;
+     cursor: pointer;
+    color: black;
+}
+
+.add-to-cart{
+    background-color: white;
+    text-align: center;
+    font-size: 24px;
+    width: 80%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.add-to-cart :hover{
+    color: green;
+    transform: translate(0px, -8px);
+}
+/* h4{
+    font-family: lexend;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16.25px;
+    color: black; */
+}
